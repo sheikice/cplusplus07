@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Array.hpp"
-#include "Array.tpp"
 #include <cstdlib>
 
 #define MAX_VAL 750
