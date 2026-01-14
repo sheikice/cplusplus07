@@ -74,9 +74,9 @@ int main(int, char**)
 		for (unsigned int i = 0; i < size; i++)
 		{
 			std::cout << "tab[" << i << "] = " << tab[i] << ", ";
+			tab[i] = tab[i] + 1;
 			std::cout << "dup[" << i << "] = " << dup[i] << "\n\n";
 		}
-
 	}
     return 0;
 }
